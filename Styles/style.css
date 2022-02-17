@@ -61,7 +61,7 @@ table {
 }
 
 .image {
-    background: url("/Images/Screenshot\ from\ 2022-02-15\ 14-05-43.PNG");
+    background: url("/Images/first.PNG");
     max-width: 90%;
     height: 60vh;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ table {
 }
 
 .image::after {
-    content: url("/Images/Screenshot\ from\ 2022-02-15\ 14-05-18.PNG");
+    content: url("/Images/second.PNG");
     animation: 8000ms changes infinite;
     opacity: 100%;
     max-width: 90%;
