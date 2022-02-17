@@ -61,7 +61,7 @@ table {
 }
 
 .image {
-    background: url("Images/Screenshot\ from\ 2022-02-15\ 14-05-43.png");
+    background: url("/Images/Screenshot\ from\ 2022-02-15\ 14-05-43.PNG");
     max-width: 90%;
     height: 60vh;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ table {
 }
 
 .image::after {
-    content: url("Images/Screenshot\ from\ 2022-02-15\ 14-05-18.png");
+    content: url("/Images/Screenshot\ from\ 2022-02-15\ 14-05-18.PNG");
     animation: 8000ms changes infinite;
     opacity: 100%;
     max-width: 90%;
@@ -78,27 +78,27 @@ table {
 
 @keyframes changes{
     0% {
-        content: url("Images/Screenshot\ from\ 2022-02-15\ 14-05-18.png");
+        content: url("/Images/Screenshot\ from\ 2022-02-15\ 14-05-18.PNG");
     }
     10% {
-        content: url("Images/Screenshot\ from\ 2022-02-15\ 14-05-18.png");
+        content: url("/Images/Screenshot\ from\ 2022-02-15\ 14-05-18.PNG");
     }
     20% {
-        content: url('Images/White.png');
+        content: url('/Images/White.png');
     }
     30% {
-        content: url("Images/Screenshot\ from\ 2022-02-15\ 14-05-43.png");
+        content: url("/Images/Screenshot\ from\ 2022-02-15\ 14-05-43.PNG");
     }
     60% {
-        content: url("Images/Screenshot\ from\ 2022-02-15\ 14-05-43.png");
+        content: url("/Images/Screenshot\ from\ 2022-02-15\ 14-05-43.PNG");
     }
     70% {
-        content: url('Images/White.png');
+        content: url('/Images/White.PNG');
     }
     80% {
-        content: url("Images/Screenshot\ from\ 2022-02-15\ 14-05-18.png");
+        content: url("/Images/Screenshot\ from\ 2022-02-15\ 14-05-18.PNG");
     }
     100% {
-        content: url("Images/Screenshot\ from\ 2022-02-15\ 14-05-18.png");
+        content: url("/Images/Screenshot\ from\ 2022-02-15\ 14-05-18.PNG");
     }
 }
