@@ -49,31 +49,26 @@ table {
     height: 100vh;
     width: 100vw;
     display: flex;
-    flex-flow: column;
-    justify-content: center;
     align-items: center;
-
 }
 
 .main-heading {
-    margin: 5% auto;
+    margin: 0em 1em 0em 0em;
     font-size: 3em;
+    writing-mode: vertical-rl;
+    margin-left: 1em;
 }
-
 .image {
     background: url("/Images/first.PNG");
-    max-width: 90%;
-    height: 60vh;
+    margin: auto;
     background-repeat: no-repeat;
-    position: relative;
     
 }
 
 .image::after {
     content: url("/Images/second.PNG");
     animation: 8000ms changes infinite;
-    opacity: 100%;
-    max-width: 90%;
+    
 }
 
 @keyframes changes{
